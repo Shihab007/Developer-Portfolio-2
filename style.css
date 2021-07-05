@@ -1,0 +1,78 @@
+body{
+    font-family: 'Uchen', serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.crimson{
+    color: crimson;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    background-image: linear-gradient(tomato,purple);
+    color: royalblue;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.link-button-two{
+    background-image: linear-gradient(red,blue);
+    color: royalblue;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+.mid-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.red-color{
+    color: red;
+}
+.Exp-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Top-Rank-Assassin{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
+}
+#new-comer{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan,yellow);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
